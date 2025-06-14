@@ -37,11 +37,10 @@ body.is-loading .page-container > * {
 
 .page-container {
   text-align: center;
-  padding: var(--container-padding);
+  padding: 8em var(--container-padding);
   max-width: var(--container-width);
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 8em;
   transition: opacity 1.5s ease 0s,transform 1.5s ease 0s;
 }
 
@@ -71,7 +70,7 @@ h1 {
 #header {
     color: #FFFFFF;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 2.75em;
+    font-size: 4em;
     line-height: 1.125;
     font-weight: 400;
 }
@@ -106,7 +105,7 @@ hr:before {
 #subheader {
     color: rgba(255,255,255,0.741);
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1.625;
     font-weight: 400;
 }
@@ -199,6 +198,15 @@ img {
   width: 60%;
 }
 
+@media (max-width: 1680px) {
+  #header {
+    font-size: 3.25em;
+  }
+  #subheader {
+    font-size: 1.25em;
+  }
+}
+
 @media (max-width: 736px) {
   html {
     font-size: 11pt;
@@ -208,8 +216,7 @@ img {
     --gallery-padding-vertical: 2.5rem;
     --spacing: 4rem;
 
-    padding-left: 0;
-    padding-right: 0;
+    padding: 6em 0;
 
     margin-bottom: 4em;
   }
@@ -231,7 +238,7 @@ img {
   #subheader {
     letter-spacing: 0;
     width: 100%;
-    font-size: 1em;
+    font-size: 1.25em;
     line-height: 1.625;
   }
 }
