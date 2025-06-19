@@ -24,7 +24,7 @@
 body {
   margin: 0;
   font: 1em/160% sans-serif;
-  background-image: linear-gradient(254deg, #D9BF98 21%, #E08791 88%);
+  background-image: linear-gradient(285deg, #d9c498 21%, #E08791 88%);
 }
 
 body.is-loading .page-container {
@@ -220,6 +220,9 @@ img {
 
     margin-bottom: 4em;
   }
+  .img-gallery {
+    border-radius: 0;
+  }
   #header {
     letter-spacing: 0;
     width: 100%;
@@ -255,9 +258,9 @@ img {
     --spacing: 2.25rem;
   }
   #header {
-    font-size: 2em;
+    font-size: 2.5em;
   }
   #subheader {
-    font-size: 1em;
+    font-size: 1.125em;
   }
 }
