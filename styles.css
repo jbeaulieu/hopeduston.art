@@ -123,6 +123,7 @@ img {
   padding: var(--gallery-padding-vertical) var(--gallery-padding-horizontal);
   background-color: white;
   border-radius: var(--gallery-item-border-radius);
+  box-shadow: 0rem 2rem 2rem 0rem rgba(0,0,0,0.12);
   &::after {
     content: "";
     flex-grow: 999;
@@ -262,5 +263,8 @@ img {
   }
   #subheader {
     font-size: 1.125em;
+  }
+  .img-gallery__item {
+    border-radius: 0;
   }
 }
